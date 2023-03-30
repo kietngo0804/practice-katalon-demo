@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service Login/txvLoginError",
+      "brokenLocator": "//section[@id\u003d\u0027login\u0027]/div/div/div/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service Login/txvLoginError_neighbor.png"
+    }
+  ]
 }
