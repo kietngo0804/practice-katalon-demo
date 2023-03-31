@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c3605423-4682-4b25-9667-d470e8986f8e</testSuiteGuid>
+   <testCaseLink>
+      <guid>61659e5d-2c8d-42d7-9614-bab203a0b7be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC_1_Sign In Successfully</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5247acac-e04e-482b-b0ba-b45c2dde6e73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC_2,3_Sign In With Invalid Data</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>272bf186-f6d8-48ed-b732-ebabf0855367</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Invalid Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>272bf186-f6d8-48ed-b732-ebabf0855367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>a0e1e008-6e33-4d08-909c-9295e53f988c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>272bf186-f6d8-48ed-b732-ebabf0855367</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d99f2231-572f-4bfd-93a7-a219c57635eb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

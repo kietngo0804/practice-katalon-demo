@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login/TC_1_Sign In Successfully","testCaseId":"Test Cases/Login/TC_1_Sign In Successfully","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","testCaseId":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","iterationVariableName":"","bindedValues":{"Password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","testCaseId":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","iterationVariableName":"","bindedValues":{"Username":"\u0027John\u0027","Password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","testCaseId":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027","Password":"\u0027Abc\u0027"}}
+{"testCaseName":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","testCaseId":"Test Cases/Login/TC_2,3_Sign In With Invalid Data","iterationVariableName":"","bindedValues":{"Username":"\u0027John Doe\u0027"}}
