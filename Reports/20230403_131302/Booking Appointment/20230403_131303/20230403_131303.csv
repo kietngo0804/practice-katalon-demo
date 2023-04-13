@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking Appointment,Chrome 111.0.0.0,,,2023-04-03 13:13:09,2023-04-03 13:13:26,16.931s,PASSED
+,,,,,,,
+Test Cases/Booking/TC_4_Check Facility Data,Chrome 111.0.0.0,,,2023-04-03 13:13:09,2023-04-03 13:13:26,16.681s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-04-03 13:13:09,2023-04-03 13:13:18,8.876s,PASSED
+"sTokyo = ""Tokyo CURA Healthcare Center""",Chrome 111.0.0.0,,,2023-04-03 13:13:18,2023-04-03 13:13:18,0.001s,PASSED
+"sHongkong = ""Hongkong CURA Healthcare Center""",Chrome 111.0.0.0,,,2023-04-03 13:13:18,2023-04-03 13:13:18,0.000s,PASSED
+"sSeoul = ""Seoul CURA Healthcare Center""",Chrome 111.0.0.0,,,2023-04-03 13:13:18,2023-04-03 13:13:18,0.001s,PASSED
+"callTestCase(findTestCase(""Login/TC_1_Sign In Successfully""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-03 13:13:18,2023-04-03 13:13:22,4.041s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service_Book Appointment/dboFacility""))",Chrome 111.0.0.0,,,2023-04-03 13:13:22,2023-04-03 13:13:23,0.814s,PASSED
+"verifyOptionsPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service_Book Appointment/dboFacility""), [sTokyo, sHongkong, sSeoul])",Chrome 111.0.0.0,,,2023-04-03 13:13:23,2023-04-03 13:13:24,1.019s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-04-03 13:13:24,2023-04-03 13:13:26,1.685s,PASSED

@@ -17,20 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String errorMessage = 'Login failed! Please ensure the username and password are valid.'
+String sFacility = 'Hongkong CURA Healthcare Center'
+Boolean bReadMisson = true
+String sHealthcareProgram = 'Medicaid'
 
-//Go To Login Page
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment'))
+//Call Sign in test
+	WebUI.callTestCase(findTestCase('Login/TC_1_Sign In Successfully'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Input data	
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfUsername'), sUsername)
+//Input data
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/dboFacility'), 
+		sFacility, false)
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfPassword'), sPassword)
+	if (bReadMisson == true) {
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/chbHospitalReadmission'))
+	}
+	
+	if (sHealthcareProgram == "Medicaid") {
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/cboMedicaid'))
+	}
+	else if (sHealthcareProgram == "Medicare") {
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/cboMedicare'))
+	}
+	else if (sHealthcareProgram == "None") {
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/cboNone'))
+	}
 
-//Click on Login button
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnLogin'))
-
-//Assertion
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txvLoginError'), errorMessage, 
-    FailureHandling.STOP_ON_FAILURE)
 

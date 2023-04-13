@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="115.227" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="115.227" skipped="0" timestamp="2023-04-03 13:13:09" hostname="kngotuan - VIETNAM-5034.corp.hds.com" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\kngotuan\\Documents\\practice-katalon-demo\\Reports\\20230403_131302\\Login\\20230403_131305"/>
+         <property name="logFiles" value="D:\\Users\\kngotuan\\Documents\\practice-katalon-demo\\Reports\\20230403_131302\\Login\\20230403_131305\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kngotuan - VIETNAM-5034.corp.hds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Edge Chromium 111"/>
+         <property name="hostAddress" value="192.168.101.52"/>
+         <property name="sessionId" value="c506f8cfbbfc98715f13fd2916266d3e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_1_Sign In Successfully" time="17.588" classname="Test Cases/Login/TC_1_Sign In Successfully" status="PASSED">
+         <system-out><![CDATA[2023-04-03 13:13:09 - [TEST_CASE][PASSED] - Test Cases/Login/TC_1_Sign In Successfully: Test Cases/Login/TC_1_Sign In Successfully
+
+2023-04-03 13:13:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-03 13:13:10 - [TEST_STEP][PASSED] - openBrowser(gURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-04-03 13:13:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 13:13:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:13:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfUsername"), gUserName): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:13:24 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:13:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfPassword"), gPassword): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:13:25 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:13:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service Login/lblMakeAppointment"), 30): Object 'Object Repository/Page_CURA Healthcare Service Login/lblMakeAppointment' is present
+
+2023-04-03 13:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service Login/lblMakeAppointment' is present
+
+2023-04-03 13:13:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2023-04-03 13:13:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 13:13:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_2,3_Sign In With Invalid Data" time="12.598" classname="Test Cases/Login/TC_2,3_Sign In With Invalid Data" status="PASSED">
+         <system-out><![CDATA[2023-04-03 13:13:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_2,3_Sign In With Invalid Data: Test Cases/Login/TC_2,3_Sign In With Invalid Data
+
+2023-04-03 13:13:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-03 13:13:27 - [TEST_STEP][PASSED] - openBrowser(gURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-04-03 13:13:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 13:13:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:35 - [TEST_STEP][PASSED] - errorMessage = "Login failed! Please ensure the username and password are valid.": null
+
+2023-04-03 13:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfUsername"), sUsername): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:13:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfPassword"), sPassword): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:13:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:13:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txvLoginError"), errorMessage, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:13:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:13:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2023-04-03 13:13:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 13:13:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_2,3_Sign In With Invalid Data" time="36.546" classname="Test Cases/Login/TC_2,3_Sign In With Invalid Data" status="PASSED">
+         <system-out><![CDATA[2023-04-03 13:13:40 - [TEST_CASE][PASSED] - Test Cases/Login/TC_2,3_Sign In With Invalid Data: Test Cases/Login/TC_2,3_Sign In With Invalid Data
+
+2023-04-03 13:13:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-03 13:13:40 - [TEST_STEP][PASSED] - openBrowser(gURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:13:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-04-03 13:13:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 13:14:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:12 - [TEST_STEP][PASSED] - errorMessage = "Login failed! Please ensure the username and password are valid.": null
+
+2023-04-03 13:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfUsername"), sUsername): Text 'John' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:14:14 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfPassword"), sPassword): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:14:14 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:14:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txvLoginError"), errorMessage, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:14:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:14:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2023-04-03 13:14:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 13:14:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_2,3_Sign In With Invalid Data" time="9.385" classname="Test Cases/Login/TC_2,3_Sign In With Invalid Data" status="PASSED">
+         <system-out><![CDATA[2023-04-03 13:14:16 - [TEST_CASE][PASSED] - Test Cases/Login/TC_2,3_Sign In With Invalid Data: Test Cases/Login/TC_2,3_Sign In With Invalid Data
+
+2023-04-03 13:14:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-03 13:14:16 - [TEST_STEP][PASSED] - openBrowser(gURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-04-03 13:14:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 13:14:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:21 - [TEST_STEP][PASSED] - errorMessage = "Login failed! Please ensure the username and password are valid.": null
+
+2023-04-03 13:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfUsername"), sUsername): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:14:23 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfPassword"), sPassword): Text 'Abc' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:14:23 - [MESSAGE][PASSED] - Text 'Abc' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:14:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txvLoginError"), errorMessage, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:14:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:14:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2023-04-03 13:14:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 13:14:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_2,3_Sign In With Invalid Data" time="38.606" classname="Test Cases/Login/TC_2,3_Sign In With Invalid Data" status="PASSED">
+         <system-out><![CDATA[2023-04-03 13:14:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC_2,3_Sign In With Invalid Data: Test Cases/Login/TC_2,3_Sign In With Invalid Data
+
+2023-04-03 13:14:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-03 13:14:26 - [TEST_STEP][PASSED] - openBrowser(gURL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:14:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-04-03 13:14:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-03 13:15:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-04-03 13:15:00 - [TEST_STEP][PASSED] - errorMessage = "Login failed! Please ensure the username and password are valid.": null
+
+2023-04-03 13:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment' is clicked on
+
+2023-04-03 13:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfUsername"), sUsername): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:15:02 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfUsername'
+
+2023-04-03 13:15:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txfPassword"), sPassword): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:15:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service Login/txfPassword'
+
+2023-04-03 13:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service Login/btnLogin")): Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service Login/btnLogin' is clicked on
+
+2023-04-03 13:15:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service Login/txvLoginError"), errorMessage, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:15:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service Login/txvLoginError' are matched.
+
+2023-04-03 13:15:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2023-04-03 13:15:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-03 13:15:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-03 13:13:09 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/TC_2,3_Sign In With Invalid Data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

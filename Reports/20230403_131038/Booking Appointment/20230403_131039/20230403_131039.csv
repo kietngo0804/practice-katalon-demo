@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking Appointment,,,,2023-04-03 13:10:45,2023-04-03 13:10:49,4.224s,FAILED
+,,,,,,,
+Test Cases/Booking/TC_4_Check Facility Data,,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.217s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.055s,ERROR
+"sTokyo = ""Tokyo CURA Healthcare Center""",,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.000s,PASSED
+"sHongkong = ""Hongkong CURA Healthcare Center""",,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.000s,PASSED
+"sSeoul = ""Seoul CURA Healthcare Center""",,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.000s,PASSED
+"callTestCase(findTestCase(""Login/TC_1_Sign In Successfully""), [:], STOP_ON_FAILURE)",,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.145s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-04-03 13:10:49,2023-04-03 13:10:49,0.004s,PASSED

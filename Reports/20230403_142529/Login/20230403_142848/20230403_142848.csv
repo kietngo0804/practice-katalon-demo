@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 111.0.0.0,,,2023-04-03 14:28:51,2023-04-03 14:29:12,21.031s,PASSED
+,,,,,,,
+Test Cases/Login/TC_1_Sign In Successfully,Chrome 111.0.0.0,,,2023-04-03 14:28:51,2023-04-03 14:29:12,20.748s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-04-03 14:28:51,2023-04-03 14:28:51,0.013s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-04-03 14:28:51,2023-04-03 14:28:58,6.760s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-04-03 14:28:58,2023-04-03 14:29:00,1.735s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), gUserName)",Chrome 111.0.0.0,,,2023-04-03 14:29:00,2023-04-03 14:29:03,3.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), gPassword)",Chrome 111.0.0.0,,,2023-04-03 14:29:03,2023-04-03 14:29:07,4.033s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-04-03 14:29:07,2023-04-03 14:29:10,2.526s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/lblMakeAppointment""), 30)",Chrome 111.0.0.0,,,2023-04-03 14:29:10,2023-04-03 14:29:11,1.401s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-04-03 14:29:11,2023-04-03 14:29:11,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-04-03 14:29:11,2023-04-03 14:29:12,0.613s,PASSED

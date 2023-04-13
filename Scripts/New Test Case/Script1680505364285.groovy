@@ -17,20 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String errorMessage = 'Login failed! Please ensure the username and password are valid.'
-
-//Go To Login Page
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment'))
-
-//Input data	
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfUsername'), sUsername)
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfPassword'), sPassword)
-
-//Click on Login button
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnLogin'))
-
-//Assertion
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txvLoginError'), errorMessage, 
-    FailureHandling.STOP_ON_FAILURE)
-

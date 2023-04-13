@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 111.0.0.0,,,2023-03-31 11:07:07,2023-03-31 11:09:13,2m - 6.207s,PASSED
+,,,,,,,
+Test Cases/Login/TC_1_Sign In Successfully,Chrome 111.0.0.0,,,2023-03-31 11:07:07,2023-03-31 11:07:18,11.111s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-03-31 11:07:07,2023-03-31 11:07:13,6.319s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-03-31 11:07:13,2023-03-31 11:07:14,0.759s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), gUserName)",Chrome 111.0.0.0,,,2023-03-31 11:07:14,2023-03-31 11:07:15,0.765s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), gPassword)",Chrome 111.0.0.0,,,2023-03-31 11:07:15,2023-03-31 11:07:16,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-03-31 11:07:16,2023-03-31 11:07:17,0.945s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/lblMakeAppointment""), 30)",Chrome 111.0.0.0,,,2023-03-31 11:07:17,2023-03-31 11:07:17,0.520s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-03-31 11:07:17,2023-03-31 11:07:18,1.050s,PASSED
+,,,,,,,
+"Test Cases/Login/TC_2,3_Sign In With Invalid Data",Chrome 111.0.0.0,,,2023-03-31 11:07:18,2023-03-31 11:07:52,33.993s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-03-31 11:07:18,2023-03-31 11:07:48,29.820s,PASSED
+"errorMessage = ""Login failed! Please ensure the username and password are valid.""",Chrome 111.0.0.0,,,2023-03-31 11:07:48,2023-03-31 11:07:48,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-03-31 11:07:48,2023-03-31 11:07:49,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), sUsername)",Chrome 111.0.0.0,,,2023-03-31 11:07:49,2023-03-31 11:07:50,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), sPassword)",Chrome 111.0.0.0,,,2023-03-31 11:07:50,2023-03-31 11:07:50,0.639s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-03-31 11:07:50,2023-03-31 11:07:51,0.944s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txvLoginError""), errorMessage, STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-31 11:07:51,2023-03-31 11:07:52,0.425s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-03-31 11:07:52,2023-03-31 11:07:52,0.594s,PASSED
+,,,,,,,
+"Test Cases/Login/TC_2,3_Sign In With Invalid Data",Chrome 111.0.0.0,,,2023-03-31 11:07:52,2023-03-31 11:08:02,9.485s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-03-31 11:07:52,2023-03-31 11:07:57,5.045s,PASSED
+"errorMessage = ""Login failed! Please ensure the username and password are valid.""",Chrome 111.0.0.0,,,2023-03-31 11:07:57,2023-03-31 11:07:57,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-03-31 11:07:57,2023-03-31 11:07:58,0.769s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), sUsername)",Chrome 111.0.0.0,,,2023-03-31 11:07:58,2023-03-31 11:07:59,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), sPassword)",Chrome 111.0.0.0,,,2023-03-31 11:07:59,2023-03-31 11:07:59,0.624s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-03-31 11:07:59,2023-03-31 11:08:00,0.915s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txvLoginError""), errorMessage, STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-31 11:08:00,2023-03-31 11:08:01,0.307s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-03-31 11:08:01,2023-03-31 11:08:02,1.086s,PASSED
+,,,,,,,
+"Test Cases/Login/TC_2,3_Sign In With Invalid Data",Chrome 111.0.0.0,,,2023-03-31 11:08:02,2023-03-31 11:08:37,35.102s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-03-31 11:08:02,2023-03-31 11:08:33,31.018s,PASSED
+"errorMessage = ""Login failed! Please ensure the username and password are valid.""",Chrome 111.0.0.0,,,2023-03-31 11:08:33,2023-03-31 11:08:33,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-03-31 11:08:33,2023-03-31 11:08:33,0.813s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), sUsername)",Chrome 111.0.0.0,,,2023-03-31 11:08:33,2023-03-31 11:08:34,0.621s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), sPassword)",Chrome 111.0.0.0,,,2023-03-31 11:08:34,2023-03-31 11:08:35,0.620s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-03-31 11:08:35,2023-03-31 11:08:36,1.112s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txvLoginError""), errorMessage, STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-31 11:08:36,2023-03-31 11:08:36,0.302s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-03-31 11:08:36,2023-03-31 11:08:37,0.608s,PASSED
+,,,,,,,
+"Test Cases/Login/TC_2,3_Sign In With Invalid Data",Chrome 111.0.0.0,,,2023-03-31 11:08:37,2023-03-31 11:09:13,36.316s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 111.0.0.0,,,2023-03-31 11:08:37,2023-03-31 11:09:09,31.798s,PASSED
+"errorMessage = ""Login failed! Please ensure the username and password are valid.""",Chrome 111.0.0.0,,,2023-03-31 11:09:09,2023-03-31 11:09:09,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment""))",Chrome 111.0.0.0,,,2023-03-31 11:09:09,2023-03-31 11:09:10,1.038s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfUsername""), sUsername)",Chrome 111.0.0.0,,,2023-03-31 11:09:10,2023-03-31 11:09:10,0.637s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txfPassword""), sPassword)",Chrome 111.0.0.0,,,2023-03-31 11:09:10,2023-03-31 11:09:11,0.630s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/btnLogin""))",Chrome 111.0.0.0,,,2023-03-31 11:09:11,2023-03-31 11:09:12,1.055s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service Login/txvLoginError""), errorMessage, STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-31 11:09:12,2023-03-31 11:09:12,0.521s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 111.0.0.0,,,2023-03-31 11:09:12,2023-03-31 11:09:13,0.629s,PASSED

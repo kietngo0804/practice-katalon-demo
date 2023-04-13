@@ -17,20 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String errorMessage = 'Login failed! Please ensure the username and password are valid.'
+String sTokyo = "Tokyo CURA Healthcare Center"
+String sHongkong = "Hongkong CURA Healthcare Center"
+String sSeoul = "Seoul CURA Healthcare Center"
 
-//Go To Login Page
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnMakeAppointment'))
+//Reuse sign in test
+	WebUI.callTestCase(findTestCase('Login/TC_1_Sign In Successfully'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Input data	
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfUsername'), sUsername)
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txfPassword'), sPassword)
-
-//Click on Login button
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service Login/btnLogin'))
-
-//Assertion
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service Login/txvLoginError'), errorMessage, 
-    FailureHandling.STOP_ON_FAILURE)
-
+//Click on dropdown
+	WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/dboFacility'))
+	
+//Assert dropdown data
+	WebUI.verifyOptionsPresent(findTestObject('Object Repository/Page_CURA Healthcare Service_Book Appointment/dboFacility'), [sTokyo, sHongkong, sSeoul])
+	
+	
+	
+	
+	
+	
+	
